@@ -1,17 +1,18 @@
 body {
-    display: flex;
+    display: grid;
+
 }
 
 .sedans {
-
+background-color: aqua;
 }
 
 .suvs {
-
+background-color: blueviolet;
 }
 
 .luxury {
-
+background-color: crimson;
 }
 
 .attribution {
