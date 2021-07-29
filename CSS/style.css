@@ -3,11 +3,10 @@ html {
 }
 
 body {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    justify-content: center;
+    align-content: center;
     
-    
-
 }
 
 .sedans {
@@ -28,4 +27,25 @@ background-color: hsl(179, 100%, 13%);
     display: none;
 
     
+}
+
+button {
+    padding: 10px 15px 10px 15px;
+    background-color: hsla(0, 0%, 100%);
+    border: none;
+    border-radius: 45px;
+    
+}
+
+.sedan_button {
+    color: hsl(31, 77%, 52%) ;
+}
+
+.SUVS_button {
+    color: hsl(184, 100%, 22%);
+
+}
+
+.Luxury_button {
+    color: hsl(179, 100%, 13%);
 }
