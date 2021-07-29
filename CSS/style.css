@@ -1,16 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
 html {
     background-color: hsl(0, 0%, 95%);
 }
 
-body {
-    display: flex;
-    justify-content: center;
-    align-content: center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 15px;
+
+}
+.cards {
+    display: grid;    
+    grid-template-columns: repeat(3,1fr);
+    place-items: center;
+    height: 100vh;
+    padding: 0 20rem;
+
+.card {
+    padding: 2.5rem ;
+}
+
     
+}
+H1 {
+
 }
 
 .sedans {
 background-color: hsl(31, 77%, 52%);
+border-radius: 10px 0 0 10px;
 }
 
 .suvs {
@@ -21,6 +42,7 @@ background-color: hsl(184, 100%, 22%);
 
 .luxury {
 background-color: hsl(179, 100%, 13%);
+border-radius: 0 10px 10px 0;
 }
 
 .attribution {
@@ -31,9 +53,10 @@ background-color: hsl(179, 100%, 13%);
 
 button {
     padding: 10px 15px 10px 15px;
-    background-color: hsla(0, 0%, 100%);
+    margin: 0px 0px 30px 30px;
+    background-color: white;
     border: none;
-    border-radius: 45px;
+    border-radius: 30px;
     
 }
 
