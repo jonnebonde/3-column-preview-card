@@ -2,31 +2,31 @@
 
 html {
     background-color: hsl(0, 0%, 95%);
+    
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Lexend Deca", sans-serif;
-    font-size: 15px;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Lexend Deca", sans-serif;
+font-size: 15px;
+max-height: 100vh;
+max-width: 100%;
 
 }
-.cards {
-    display: grid;    
-    grid-template-columns: repeat(3,1fr);
-    place-items: center;
-    height: 100vh;
-    padding: 0 20rem;
+
+main {
+    display: flex;
+    justify-content: center;
+    width: 60% ;
     
-}
-H1 {
-
 }
 
 .sedans {
-background-color: hsl(31, 77%, 52%);
-border-radius: 10px 0 0 10px;
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+    height: 50vh;
 }
 
 .suvs {
@@ -43,7 +43,6 @@ border-radius: 0 10px 10px 0;
 .attribution {
     display: none;
 
-    
 }
 
 button {
